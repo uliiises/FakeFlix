@@ -63,18 +63,18 @@ header nav a.active {
 	align-items: flex-end;
 }
 
-.pelicula_principal .contenedor{
+.pelicula_principal .contenedor {
 	margin: 0 auto;
 	margin-bottom: 6.25em;
 }
 
-.pelicula_principal .titulo{
+.pelicula_principal .titulo {
 	font-weight: 600;
 	font-size: 3.12em;
 	margin-bottom: 0.4em;
 }
 
-.pelicula_principal .descripcion{
+.pelicula_principal .descripcion {
 	font-weight: normal;
 	font-size: 1em;
 	line-height: 1.75em;
@@ -82,7 +82,7 @@ header nav a.active {
 	margin-bottom: 1.25em;
 }
 
-.pelicula_principal .boton{
+.pelicula_principal .boton {
 	background: rgba(0, 0, 0, 0.5);
 	border: none;
 	border-radius: 0.31em;
@@ -114,5 +114,13 @@ header nav a.active {
 	header .contenedor {
 		flex-direction: column;
 		text-align: center;
+	}
+
+	.pelicula_principal {
+		font-size: 13px;
+	}
+
+	.pelicula_principal .descripcion{
+		max-width: 100%;
 	}
 }
