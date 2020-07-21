@@ -1,0 +1,16 @@
+:root { 		/* VARIABLES CSS*/
+	--rojo: #E50914;
+	--fondo: #141414;
+}
+
+* { 			/*SELECTOR UNIVERSAL DE CONFIGURACIÓN DE SITIO*/
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: var(--fondo);
+	font-family: 'Open Sans', sans-serif;	
+}
+
