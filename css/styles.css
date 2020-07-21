@@ -20,7 +20,7 @@ body {
 }
 
 header { /* ESPACIO DEL HEADER CON RESPECTO A LA PÁGINA*/
-	padding: 30px;
+	padding: 10px;
 }
 
 header .contenedor { /*ESPACIO DEL CONTENEDOR DENTRO DEL HEADER*/
@@ -47,3 +47,24 @@ header nav a:hover,
 header nav a.active {
 	color: #FFFFFF
 }
+
+
+/*--------------------PORTADA PELICULA PRINCIPAL--------------------*/
+
+.pelicula_principal {
+	font-size: 17px;
+	min-height: 30.50em;
+	color: #FFFFFF;
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0, 0, 0, .50) 100%), url(../img/peliculas/Interstellar.jpg);
+	background-size: cover;
+	background-position: center center;
+	/*margin-bottom: 2.10em;*/
+	display: flex;
+	align-items: flex-end;
+}
+
+.pelicula_principal .contenedor{
+	margin: 0 auto;
+	margin-bottom: 6.30em;
+}
+
