@@ -14,3 +14,8 @@ body {
 	font-family: 'Open Sans', sans-serif;	
 }
 
+.contenedor { 	/*CLASE PARA EL MARGEN DE LA CABECERA*/
+	width: 90%;
+	margin: auto;
+}
+
