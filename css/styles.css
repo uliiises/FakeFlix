@@ -19,19 +19,31 @@ body {
 	margin: auto;
 }
 
-header {
+header { /* ESPACIO DEL HEADER CON RESPECTO A LA PÁGINA*/
 	padding: 30px;
 }
 
-header .contenedor {
+header .contenedor { /*ESPACIO DEL CONTENEDOR DENTRO DEL HEADER*/
 	display: flex;
 	justify-content: space-between; 
 	align-items: center;
 }
 
-header .logotipo {
+header .logotipo { /*PARAMETROS DEL LOGO*/
 	font-family: 'Bebas Neue', cursive;
 	font-weight: normal;
 	color: var(--rojo);
 	font-size: 40px;
+}
+
+header nav a { /*PARAMETROS DE LETRAS DEL HEADER*/
+	color: #AAAAAA;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+/*EFECTO DE HOVER EN LAS LETRAS DEL HEADER*/
+header nav a:hover,
+header nav a.active {
+	color: #FFFFFF
 }
