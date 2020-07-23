@@ -91,7 +91,7 @@ header nav a.active {
 	margin-right: 1.25em;
 	cursor: pointer;
 	transition: .3s ease all;
-	font-size: 1.12em;
+	font-size: 0.80em;
 }
 
 .pelicula_principal .boton:hover {
