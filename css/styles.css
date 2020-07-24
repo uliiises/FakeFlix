@@ -58,7 +58,7 @@ header nav a.active {
 	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0, 0, 0, .50) 100%), url(../img/peliculas/Interstellar.jpg);
 	background-size: cover;
 	background-position: center center;
-	/*margin-bottom: 3.12em;*/
+	margin-bottom: 3.12em;
 	display: flex;
 	align-items: flex-end;
 }
@@ -101,6 +101,33 @@ header nav a.active {
 
 .pelicula_principal .boton i{
 	margin-right: 1.25em;
+}
+
+/*--------------- CONTENEDOR DE TITULO Y CONTROLES ---------------*/
+
+.contenedor_titulo_controles{
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
+}
+
+.contenedor_titulo_controles h3{
+	color: #FFFFFF;
+	font-size: 30px;
+}
+
+.contenedor_titulo_controles .indicadores button{
+	background: #FFFFFF;
+	height: 3px;
+	width: 10px;
+	cursor: pointer;
+	border: none;
+	margin-right: 2px; 
+}
+
+.contenedor_titulo_controles .indicadores button:hover,
+.contenedor_titulo_controles .indicadores button.activo{
+	background: #F10606;
 }
 
 
