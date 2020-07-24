@@ -103,6 +103,47 @@ header nav a.active {
 	margin-right: 1.25em;
 }
 
+
+/*--------------- CONTENEDOR PRINCIPAL Y FLECHAS ---------------*/
+
+.peliculas_recomendadas {
+margin-bottom: 70px;	
+}
+
+.peliculas_recomendadas .contenedor_principal {
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.peliculas_recomendadas .contenedor_principal .flecha_izq,
+.peliculas_recomendadas .contenedor_principal .flecha_der {
+	position: absolute;
+	border: none;
+	background: rgba(0, 0, 0, 0.3);
+	font-size: 40px;
+	height: 50%
+	top: calc(50% - 25%);
+	line-height: 40px;
+	width: 50px;
+	color: #FFFFFF;
+	cursor: pointer;
+	z-index: 500;
+	transition: .2s ease all;
+}
+
+.peliculas_recomendadas .contenedor_principal .flecha_izq:hover,
+.peliculas_recomendadas .contenedor_principal .flecha_der:hover {
+	background: rgba(0, 0, 0, .9);
+}
+.peliculas_recomendadas .contenedor_principal .flecha_izq{
+	left: 0;
+}
+
+.peliculas_recomendadas .contenedor_principal .flecha_der{
+	right: 0;
+}
+
 /*--------------- MEDIA QUERY (RESPONSIVE) ---------------*/
 
 @media screen and (max-width: 800px) {
