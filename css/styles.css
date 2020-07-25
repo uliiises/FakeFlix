@@ -171,6 +171,33 @@ margin-bottom: 70px;
 	right: 0;
 }
 
+/*--------------- CAROUSEL ---------------*/
+
+.peliculas_recomendadas .contenedor_carousel {
+	width: 100%;
+	padding: 20px 0;
+	overflow: hidden;
+	scroll-behavior: smooth;
+}
+
+.peliculas_recomendadas .contenedor_carousel .carousel {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.peliculas_recomendadas .contenedor_carousel .carousel .pelicula {
+	min-width: 20%;
+	transition: .3s ease all;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+}
+
+.peliculas_recomendadas .contenedor_carousel .carousel .pelicula img {
+	width: 100%;
+	vertical-align: top;
+}
+
+
+
 /*--------------- MEDIA QUERY (RESPONSIVE) ---------------*/
 
 @media screen and (max-width: 800px) {
