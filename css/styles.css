@@ -236,4 +236,13 @@ margin-bottom: 70px;
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 		gap: 20px;
+	}
+
+	.peliculas_recomendadas .indicadores,
+	.peliculas_recomendadas .flecha_izq,
+	.peliculas_recomendadas .flecha_der {
+		/*INDICADORES DE PAGINA DE CAROUSEL Y FLECHAS*/
+		display: none;
+	}
+
 }
