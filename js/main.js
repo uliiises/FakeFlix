@@ -22,7 +22,11 @@ const numeroPaginas = Math.ceil(peliculas.length/5);
 for (let i = 0; i < numeroPaginas; i++) { /*CONDICION DE NUMERO DE PAGINAS*/
 	const indicador = document.createElement('button'); /*CREACION DE BOTON*/
 
-
+	if (i=== 0) { /*CONDICIONAL DE INDICADOR ACTIVO DE CSS*/
+		indicador.classList.add('activo');
+	}
 	document.querySelector('.indicadores').appendChild(indicador); /*SELECCION DE CONTENEDOR "indicadores" */
+	indicador.addEventListener('click', (e) =>{
+		fila.scrollLeft = i * fila.offsetWidth;
+	})
 }
-
